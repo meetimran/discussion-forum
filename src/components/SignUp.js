@@ -86,7 +86,11 @@ class SignUp extends Component {
                     </div>
 
 
-                    <input type="submit" value="Log In" class="btn btn-block btn-primary ml-4"/>
+                    <input type="submit" value="Sign Up" class="btn btn-block btn-primary ml-4"/>
+
+                    <Link to="/login">
+                      <a href="#" data-toggle="modal" data-target="" class="forgot-pass ml-4">Already have an account? Click here</a>
+                    </Link>
 
                 </form>
 

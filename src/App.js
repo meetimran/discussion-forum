@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.scss';
 import {Link} from "react-router-dom";
 
-
 class App extends Component{
 
     state = {
@@ -66,9 +65,9 @@ class App extends Component{
               </div>
 
               {/* Routing is commented intentionally because it will be opened after validating */}
-              {/* <Link to="/home"> */}
+              <Link to="/home">
                 <input type="submit" value="Log In" class="btn btn-block btn-primary"/>
-              {/* </Link> */}
+              </Link>
 
             </form>
           </div>
